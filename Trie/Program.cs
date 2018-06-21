@@ -65,11 +65,19 @@ namespace Trie
 
         public static void Add(Node node, string name)
         {
-            if (node == null || name == "")
+            if (node == null)
             {
                 return;
             }
+            if (name == "")
+            {
+                node.isWord = true;
+                return;
+            }
+
             char c = name.ElementAt(0);
+            string sub = name.Substring(1, name.Length - 1);
+
             if (node.Children.ContainsKey(c))
             {
                 Add(node.Children[c], name.Substring(1, name.Length - 1));
@@ -77,13 +85,14 @@ namespace Trie
             else
             {
                 node.Children.Add(c, new Node(c));
-                Add(node.Children[c], name.Substring(1, name.Length - 1));
+                Add(node.Children[c], sub);
             }
         }
         public class Node
         {
             public char data;
             public Dictionary<char, Node> Children = new Dictionary<char, Node>();
+            public bool isWord = false;
             public Node()
             {
 
