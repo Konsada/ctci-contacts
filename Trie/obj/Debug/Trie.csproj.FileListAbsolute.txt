@@ -1,0 +1,7 @@
+C:\Users\v-kesada\source\repos\LeetCode\Trie\Trie\bin\Debug\Trie.exe.config
+C:\Users\v-kesada\source\repos\LeetCode\Trie\Trie\bin\Debug\Trie.exe
+C:\Users\v-kesada\source\repos\LeetCode\Trie\Trie\bin\Debug\Trie.pdb
+C:\Users\v-kesada\source\repos\LeetCode\Trie\Trie\obj\Debug\Trie.csprojAssemblyReference.cache
+C:\Users\v-kesada\source\repos\LeetCode\Trie\Trie\obj\Debug\Trie.csproj.CoreCompileInputs.cache
+C:\Users\v-kesada\source\repos\LeetCode\Trie\Trie\obj\Debug\Trie.exe
+C:\Users\v-kesada\source\repos\LeetCode\Trie\Trie\obj\Debug\Trie.pdb
